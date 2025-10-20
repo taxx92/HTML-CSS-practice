@@ -1,12 +1,12 @@
-p {
-  text-shadow:
-    /* 안쪽 흰색 그림자 */
-    1px 0 white, -1px 0 white, 0 1px white, 0 -1px white, 
-    1px 1px white, 1px -1px white, -1px 1px white, -1px -1px white,
+ul {
+  list-style: circle;
+}
 
-    /* 바깥쪽 미국자두색 그림자 */
-    2px 0 plum, -2px 0 plum, 0 2px plum, 0 -2px plum,
-    2px 1px plum, -2px 1px plum, 1px 2px plum, 1px -2px plum,
-    2px -1px plum, -2px -1px plum, -1px 2px plum, -1px -2px plum,
-    2px 2px plum, 2px -2px plum, -2px 2px plum, -2px -2px plum;
+/* li별로 지정하는 것도 가능 */
+ul > li:first-child {
+  list-style: "🚩 "
+}
+
+ol {
+  list-style: lower-alpha;
 }
