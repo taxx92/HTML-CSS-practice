@@ -1,12 +1,7 @@
-ul {
-  list-style: circle;
-}
+p {
+  /* 글자색 */
+  color: yellow;
 
-/* li별로 지정하는 것도 가능 */
-ul > li:first-child {
-  list-style: "🚩 "
-}
-
-ol {
-  list-style: lower-alpha;
+  /* 배경색 */
+  background-color: #333;
 }
