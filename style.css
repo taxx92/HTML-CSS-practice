@@ -1,7 +1,7 @@
-p {
-  /* 글자색 */
-  color: yellow;
-
-  /* 배경색 */
-  background-color: #333;
+/* display 속성을 추가해서 */
+/* 이 목록을 상단바 메뉴 모습으로 바꿔보세요! */
+ul > li {
+  margin-right: 2em;
+  display: inline;
+  padding: 8px;
 }
