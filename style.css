@@ -1,17 +1,6 @@
-p {
-  background-color: lightblue;
-  margin: 24px;
-  padding: 24px;
+ul li{
+  border-bottom: 1px solid black;
 }
-
-p.special {
-  /* margin-top: */
-  /* margin-bottom: */
-  /* margin-left: */
-  /* margin-right: */
-
-  /* padding-top */
-  /* padding-bottom */
-  /* padding-left */
-  /* padding-right */
+ul > li:last-child{
+  border-bottom: 0;
 }
