@@ -1,7 +1,17 @@
-/* display 속성을 추가해서 */
-/* 이 목록을 상단바 메뉴 모습으로 바꿔보세요! */
-ul > li {
-  margin-right: 2em;
-  display: inline;
-  padding: 8px;
+p {
+  background-color: lightblue;
+  margin: 24px;
+  padding: 24px;
+}
+
+p.special {
+  /* margin-top: */
+  /* margin-bottom: */
+  /* margin-left: */
+  /* margin-right: */
+
+  /* padding-top */
+  /* padding-bottom */
+  /* padding-left */
+  /* padding-right */
 }
